@@ -1,207 +1,200 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Octopus Missing A Leg</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <!---<img src ="github.png" class = "github"> -->
-            <img src="logo.jpg" class="logo">
-            <h1>OMAL</h1>
-            <p class="tagline">Octopus Missing A Leg</p>
-        </header>
+<div class="container">
+    <header>
+        <!---<img src="github.png" class="github"> -->
+        <img src="logo.jpg" class="logo">
+        <h1>OMAL</h1>
+        <p class="tagline">Octopus Missing A Leg</p>
+    </header>
 
-        <nav>
-            <button class="nav-btn" onclick="showPage(&#39;download&#39;)">Download</button>
-            <button class="nav-btn" onclick="showPage(&#39;team&#39;)">Team</button>
-            <button class="nav-btn" onclick="showPage(&#39;game&#39;)">Game Details</button>
-            <button class="nav-btn" onclick="showPage(&#39;planning&#39;)">Planning</button>
-            <button class="nav-btn" onclick="showPage(&#39;takeoverMaterials&#39;)">For Next Group</button>
-            <button class="nav-btn-gh" onclick="location.href='https\://github.com/orgs/OctopusMissingALeg';"> <img src="github.png" width="50"></img></button>
-        </nav>
+    <nav>
+        <button class="nav-btn" onclick="showPage('download')">Download</button>
+        <button class="nav-btn" onclick="showPage('team')">Team</button>
+        <button class="nav-btn" onclick="showPage('game')">Game Details</button>
+        <button class="nav-btn" onclick="showPage('planning')">Planning</button>
+        <button class="nav-btn" onclick="showPage('takeoverMaterials')">For Next Group</button>
+        <button class="nav-btn-gh" onclick="location.href='https://github.com/OctopusMissingALeg/SourceCode';"> 
+            <img src="github.png" width="50">
+        </button>
+    </nav>
 
-        
-        <div id="download" class="content active">
-            <h2>Download Game</h2>
-            <div class="download-section">
-                <h3 style="color: white; font-size: 2em; margin-bottom: 10px;">Get Started Now!</h3>
-                <p style="color: white; font-size: 1.1em;">Download the latest version of our game</p>
-                <a href="game.jar" class="download-btn" download="">Download JAR File</a>
-                <p style="color: white; margin-top: 20px; font-size: 0.9em;">Version 1.0 | N/A MB | Requires Java 17+</p>
-            </div>
+    <div id="download" class="content active">
+        <h2>Download Game</h2>
+        <div class="download-section">
+            <h3 style="color: white; font-size: 2em; margin-bottom: 10px;">Get Started Now!</h3>
+            <p style="color: white; font-size: 1.1em;">Download the latest version of our game</p>
+            <a href="https://drive.google.com/file/d/1MpbsOuSpKjgXkJ3YXzx0M3jLF0ROfUZu/view?usp=drive_link" class="download-btn" target="_blank">Download JAR File</a>
+            <p style="color: white; margin-top: 20px; font-size: 0.9em;">Version 1.0 | N/A MB | Requires Java 17+</p>
         </div>
+    </div>
 
-        <div id="team" class="content">
-            <h2>Our Team</h2>
-            <div class="team-grid">
-                <div class="team-card">
-                    <h3>Katie</h3>
-                    <p><strong>Project Manager</strong></p>
-                    <p>Planning, Team Coordination &amp; Testing</p>
-                </div>
-                <div class="team-card">
-                    <h3>Anna</h3>
-                    <p><strong>Architectural and Graphic Designer</strong></p>
-                    <p>Game Architecture &amp; Graphic Design</p>
-                </div>
-                <div class="team-card">
-                    <h3>Terry</h3>
-                    <p><strong>Developer</strong></p>
-                    <p>Game Development &amp; Testing</p>
-                </div>
-                <div class="team-card">
-                    <h3>Luke</h3>
-                    <p><strong>Lead Game Developer</strong></p>
-                    <p>Game Development &amp; Website Development</p>
-                </div>
-                <div class="team-card">
-                    <h3>Praneel</h3>
-                    <p><strong>Developer</strong></p>
-                    <p>Game Development &amp; Licensing</p>
-                </div>
-                <div class="team-card">
-                    <h3>Abbie</h3>
-                    <p><strong>Risk Manager</strong></p>
-                    <p>Risk Assessing &amp; Game Development</p>
-                </div>
-                <div class="team-card">
-                    <h3>Callum</h3>
-                    <p><strong>Requirements engineer</strong></p>
-                    <p>Requirement Elicitation &amp; Game Development</p>
-                </div>
+    <div id="team" class="content">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <h3>Katie</h3>
+                <p><strong>Project Manager</strong></p>
+                <p>Planning, Team Coordination &amp; Testing</p>
             </div>
-        </div>
-
-        <div id="planning" class="content">
-            <h2>Planning</h2>
-            <div class="game-links">
-                <a href="https://drive.google.com/file/d/1jrUrFXcM_H1LNX_1-wgWebgM5Bppxg-K/view?usp=drive_link"
-                   class="game-link"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                   Plan1.pdf
-                </a>
+            <div class="team-card">
+                <h3>Anna</h3>
+                <p><strong>Architectural and Graphic Designer</strong></p>
+                <p>Game Architecture &amp; Graphic Design</p>
             </div>
-            
-            <div class="weeks">
-                <h3>Week 3</h3>
-                <img src="Gantt-chart/week3.png">
-
-                <h3>Week 4</h3>
-                <img src="Gantt-chart/week4.png">
-
-                <h3>Week 5</h3>
-                <img src="Gantt-chart/week5.png">
-
-                <h3>Week 6</h3>
-                <img src="Gantt-chart/week6.png">
+            <div class="team-card">
+                <h3>Terry</h3>
+                <p><strong>Developer</strong></p>
+                <p>Game Development &amp; Testing</p>
             </div>
-            
-        </div>
-
-        <div id="takeoverMaterials" class="content">
-            <h2>For Next Group</h2>
-            <p> If a group thinking about taking over our project is interested in our processes, we have documents with some short notes explaining this.</p>  
-            <a href="For-Next-Group/Notes on Architecture and Design.pdf">Notes on Architecture and Design</a> </br>
-            <a href="For-Next-Group/Notes on Graphics.pdf">Notes on Graphics</a>
-        </div>
-
-        <div id="game" class="content">
-            <h2>Game Details</h2>
-            
-            <div class="game-info">
-                <h3>About the Game</h3>
-                <p><strong>Genre:</strong> Maze game</p>
-                <p><strong>Platform:</strong> PC (Windows, Mac, Linux)</p>
-                <p><strong>Release Date:</strong> November 2025</p>
+            <div class="team-card">
+                <h3>Luke</h3>
+                <p><strong>Lead Game Developer</strong></p>
+                <p>Game Development &amp; Website Development</p>
             </div>
-
-            <div class="game-info">
-                <h3>Key Features</h3>
-                <p>Exciting display of the university's landmarks</p>
-                <p>Challenging maze and hidden secrets</p>
-                <p>Stylish graphics and a fun soundtrack</p>
-                <p>Playable for all ages</p>
+            <div class="team-card">
+                <h3>Praneel</h3>
+                <p><strong>Developer</strong></p>
+                <p>Game Development &amp; Licensing</p>
             </div>
-
- <div class="game-info">
-    <h3>Credits</h3>
-    <p>
-        <strong>Game Engine:</strong> The game framework was built using  
-        <a href="https://libgdx.com/" target="_blank" rel="noopener noreferrer">libGDX</a> under the Apache License 2.0.
-    </p>
-    <p>
-        <strong>Maze Generation:</strong> Mazes were developed using
-        <a href="https://www.mazegenerator.net/" target="_blank" rel="noopener noreferrer">Maze Generator</a>.
-    </p>
-    <p>
-        <strong>Visual Assets:</strong> Visual assets in the game were created using
-        <a href="https://www.piskelapp.com/" target="_blank" rel="noopener noreferrer">Piskel</a>.
-    </p>
-    <p>
-        <strong>Sound Effects:</strong> Sound effects used in the game were from 
-        <a href="https://freesound.org/" target="_blank" rel="noopener noreferrer">Freesound</a>.
-    </p>
-</div>
-
-            <div class="game-info">
-                <h3>Required Links</h3>
-                <div class="game-links">
-                    <a href="https://drive.google.com/file/d/12MM4mdY-UfqOBpguTyCgHEtySPj6dtJD/view?usp=drive_link"
-                       class="game-link"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                       Risk1.pdf
-                    </a>
-                    <a href="https://drive.google.com/file/d/1sWqXlvMdRwAuGuoborxaetPyg2ix7Cax/view?usp=drive_link"
-                       class="game-link"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Arch1.pdf
-                    </a>
-                    <a href="https://drive.google.com/file/d/1jrUrFXcM_H1LNX_1-wgWebgM5Bppxg-K/view?usp=drive_link"
-                       class="game-link"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Plan1.pdf
-                    </a>
-                    <a href="game_website.html#" class="game-link">Impl1.pdf</a>
-                    <a href="https://drive.google.com/file/d/13imjpO1Lp-wzQXiE_F_BJoB8qKVRN65i/view?usp=drive_link"
-                       class="game-link"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                       Req1.pdf
-                    </a>
-                    <a href="https://github.com/OctopusMissingALeg" class="game-link" target="_blank" rel="noopener noreferrer">Github</a>
-                </div>
+            <div class="team-card">
+                <h3>Abbie</h3>
+                <p><strong>Risk Manager</strong></p>
+                <p>Risk Assessing &amp; Game Development</p>
             </div>
-
-            <div id="download" class="content active">
-            <h2>Methods, Planning and Structure</h2>
-            <div class="download-section">
-                <a href="game.jar" class="download-btn" download="">Images</a>
-            </div>
-        </div>
-
-        </div>
-
-            <div class="game-info">
-                <h3>System Requirements</h3>
-                <p><strong>Minimum:</strong></p>
-                <p>OS: Windows/ Mac / Linux</p>
+            <div class="team-card">
+                <h3>Callum</h3>
+                <p><strong>Requirements engineer</strong></p>
+                <p>Requirement Elicitation &amp; Game Development</p>
             </div>
         </div>
     </div>
 
-    <script>
-        function showPage(pageId) {
-            const pages = document.querySelectorAll('.content');
-            pages.forEach(page => page.classList.remove('active'));
-            document.getElementById(pageId).classList.add('active');
-        }
-    </script>
+    <div id="planning" class="content">
+        <h2>Planning</h2>
+        <div class="game-links">
+            <a href="https://drive.google.com/file/d/1jrUrFXcM_H1LNX_1-wgWebgM5Bppxg-K/view?usp=drive_link"
+                class="game-link"
+                target="_blank">
+                Plan1.pdf
+            </a>
+        </div>
+        
+        <div class="weeks">
+            <h3>Week 3</h3>
+            <img src="Gantt-chart/week3.png">
 
-</body></html>
+            <h3>Week 4</h3>
+            <img src="Gantt-chart/week4.png">
+
+            <h3>Week 5</h3>
+            <img src="Gantt-chart/week5.png">
+
+            <h3>Week 6</h3>
+            <img src="Gantt-chart/week6.png">
+        </div>
+    </div>
+
+    <div id="takeoverMaterials" class="content">
+        <h2>For Next Group</h2>
+        <p>If a group thinking about taking over our project is interested in our processes, we have documents with some short notes explaining this.</p>  
+        <a href="For-Next-Group/Notes on Architecture and Design.pdf">Notes on Architecture and Design</a><br>
+        <a href="For-Next-Group/Notes on Graphics.pdf">Notes on Graphics</a>
+    </div>
+
+    <div id="game" class="content">
+        <h2>Game Details</h2>
+        
+        <div class="game-info">
+            <h3>About the Game</h3>
+            <p><strong>Genre:</strong> Maze game</p>
+            <p><strong>Platform:</strong> PC (Windows, Mac, Linux)</p>
+            <p><strong>Release Date:</strong> November 2025</p>
+        </div>
+
+        <div class="game-info">
+            <h3>Key Features</h3>
+            <p>Exciting display of the university's landmarks</p>
+            <p>Challenging maze and hidden secrets</p>
+            <p>Stylish graphics and a fun soundtrack</p>
+            <p>Playable for all ages</p>
+        </div>
+
+        <div class="game-info">
+            <h3>Credits</h3>
+            <p>
+                <strong>Game Engine:</strong> The game framework was built using  
+                <a href="https://libgdx.com/" target="_blank">libGDX</a> under the Apache License 2.0.
+            </p>
+            <p>
+                <strong>Maze Generation:</strong> Mazes were developed using
+                <a href="https://www.mazegenerator.net/" target="_blank">Maze Generator</a>.
+            </p>
+            <p>
+                <strong>Visual Assets:</strong> Visual assets in the game were created using
+                <a href="https://www.piskelapp.com/" target="_blank">Piskel</a>.
+            </p>
+            <p>
+                <strong>Sound Effects:</strong> Sound effects used in the game were from 
+                <a href="https://freesound.org/" target="_blank">Freesound</a>.
+            </p>
+        </div>
+
+        <div class="game-info">
+            <h3>Required Links</h3>
+            <div class="game-links">
+                <a href="https://drive.google.com/file/d/12MM4mdY-UfqOBpguTyCgHEtySPj6dtJD/view?usp=drive_link"
+                    class="game-link"
+                    target="_blank">
+                    Risk1.pdf
+                </a>
+                <a href="https://drive.google.com/file/d/1sWqXlvMdRwAuGuoborxaetPyg2ix7Cax/view?usp=drive_link"
+                    class="game-link"
+                    target="_blank">
+                    Arch1.pdf
+                </a>
+                <a href="https://drive.google.com/file/d/1jrUrFXcM_H1LNX_1-wgWebgM5Bppxg-K/view?usp=drive_link"
+                    class="game-link"
+                    target="_blank">
+                    Plan1.pdf
+                </a>
+                <a href="https://drive.google.com/file/d/1KMNPdsWPjfCEFKY1iKtDVF8htOUoOS2A/view?usp=drive_link" 
+                    class="game-link"
+                    target="_blank">
+                    Impl1.pdf
+                </a>
+                <a href="https://drive.google.com/file/d/13imjpO1Lp-wzQXiE_F_BJoB8qKVRN65i/view?usp=drive_link"
+                    class="game-link"
+                    target="_blank">
+                    Req1.pdf
+                </a>
+                <a href="https://github.com/OctopusMissingALeg/SourceCode" class="game-link" target="_blank">Github</a>
+            </div>
+        </div>
+
+        <div class="game-info">
+            <h3>System Requirements</h3>
+            <p><strong>Minimum:</strong></p>
+            <p>OS: Windows / Mac / Linux</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function showPage(pageId) {
+        const pages = document.querySelectorAll('.content');
+        pages.forEach(page => page.classList.remove('active'));
+        document.getElementById(pageId).classList.add('active');
+    }
+</script>
+
+</body>
+</html>
